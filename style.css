@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    font-weight: 400;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to top left, #753682 0%, #bf2e34 100%);
+}
+main{
+    width: 66rem;
+    height: 40rem;
+    box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.25);
+    border-radius: 9px;
+    background-color: rgba(255, 255, 255, 0.4);
+    display: flex;
+    justify-content: space-between;
+}
+.btn0 , .btn1{
+    padding: 0.5rem ;
+    color: black;
+    background: none;
+    border: none;
+    font-size: 1.8rem;
+    cursor: pointer;
+    background-color: white;
+    background-color: rgba(255, 255, 255, 0.6);
+    box-shadow: 0 1.75rem 3.5rem rgba(0, 0, 0, 0.1);
+    border-radius: 50px;
+    text-align: center;
+}
+.dice{
+    position: absolute;
+    left: 46%;
+    top: 16.5rem;
+    height: 7rem;
+    box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.2);
+}
+.player1 , .player2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 50px;
+}
+.score1 , .score2{
+    margin-top: 80px;
+    margin-bottom: 80px;
+    font-size: 50px;
+    font-weight: 400;
+}
+.player1-title , .player2-title{
+    font-size: 45px;
+    font-weight: 400;
+}
+
+  
